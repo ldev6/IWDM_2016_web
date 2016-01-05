@@ -10,10 +10,10 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2016"
+title: "International Women's Day Montréal 2016"
 email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
-baseurl: "/2016"
+description: "IWD is a set of events all around the world"
+baseurl: "/IWD_2016"
 url: "http://devfest.android-montreal.com"
 permalink: "/blog/:title"
 #googleAnalyticsTrackingId: "UA-43643469-5"
@@ -21,15 +21,15 @@ permalink: "/blog/:title"
 #siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Montreal Android"
+organizerName: "Women Techmakers, GDG Montreal Android"
 organizerAlternateName: "Google Developer Group Montreal Android"
 organizerDescription: "Android Users and Programmers group of Montreal, Quebec."
-organizerEmail: "etienne.caron@gmail.com"
+organizerEmail: "laurence.de.villers.prog@gmail.com"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://android-montreal.com/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+metaKeywords: "event, gdg, Women Techmakers, IWD, google, programming, android, chrome, developers"
 twitterAccount: "@androidmontreal"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -56,20 +56,20 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2016"
-eventDate: "January, 2016"
-typeoutTextValues: '"", "Season", "Montreal", "Canada"'
+heroTitle: "IWD <typeout> 2016"
+eventDate: "March, 2016"
+typeoutTextValues: '"", "ÉTS", Montreal", "Canada"'
 typeoutFallback: "Season"
 heroButtons:
  #- {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "About IWD"
 aboutBlock:
- #- {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+# - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -90,16 +90,16 @@ rockstarSpeakersButtonText: "See all speakers"
 
 # Location Block
 locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
+eventLocationName: "Auditorium A-1600"
+#eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
+eventStreetAddress: "1100 Rue Notre-Dame 0uest"
 eventAddressLocality: "Montreal"
 eventAddressLocalityRegion: "Quebec"
-eventPostalCode: "79000"
+eventPostalCode: "H3C 1k3"
 eventAddressCountry: "Canada"
-eventStartTime: "2016-01-25T10:00"
+eventStartTime: "2016-03-12T9:00"
 eventDoorTime: "09:00"
-eventEndTime: "2016-01-25T20:00"
+eventEndTime: "2016-03-12T17:00"
 eventPlaceCoordinates: "45.511777,-73.570094"
 mapCenterCoordinates: "45.511777,-73.570094"
 mapMobileCenterCoordinates: "45.511777,-73.570094"
@@ -167,8 +167,8 @@ ticketsOffers:
   buyButtonText: "Buy Now"
   additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
+  validFrom: "2016-02-01T10:00"
+  validThrough: "2016-03-10T23:59"
   soldOut: true
   soldOutText: "Sold Out"
 
@@ -182,12 +182,13 @@ footerBlocks:
  -
   title: "Links"
   links:
+   - {link: "https://www.womentechmakers.com", text: "Women Techmakers"}
    - {link: "http://android-montreal.com", text: "Android Montreal"}
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:etienne.caron@gmail.com", text: "etienne.caron@gmail.com"}
+   - {link: "mailto:laurence.de.villers.prog@gmail.com", text: "laurence.de.villers.prog@gmail.com"}
  -
   title: "FAQ"
   links:
@@ -196,7 +197,7 @@ footerBlocks:
 # Blog
 blogTitle: "Latest news"
 blogCommentsEnabled: true
-discusShortName: "devfest"
+discusShortName: "IWD"
 
 # Speakers List Block
 showSessions: true
@@ -213,8 +214,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "45.511777,-73.570094"
-logisticsMapMobileCenterCoordinates: "45.511777,-73.570094"
+logisticsMapCenterCoordinates: "45.4944822,-73.5646407"
+logisticsMapMobileCenterCoordinates: "45.4944822,-73.5646407"
 logisticsMapAutoDirections: false
 
 # Logistics Direction Details Block
@@ -252,40 +253,40 @@ logisticsMapAutoDirections: false
 
 # Hackathon
 hackathonTitle: "Hackathon"
-enableHackathon: true
+enableHackathon: false
 
 # Hackathon About Block
 aboutHackathonTitle: "Meet our themes"
-hackathonRows:
- - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
+#hackathonRows:
+# - {title: "Android Wear", image: "hackathon-0.png", details: "The front doors will be locked because this is after hours, please park behind the building and come to the door nearest the parking lot.<br><br>Our last meeting showed that there was a lot of interest in Android Wear so we decided to put on an Android Wear Hackathon to see what you could come up with! We realize that this is pretty short notice so we hope you can help us spread the word! There will be pizza, prizes and a great group of geeks to spend the evening coding with! Even if you don't have an app idea come on in and lend a hand to someone else or maybe find inspiration once you're here!"}
 # - {title: "Google Glass", image: "hackathon-1.png", details: "We love wearable computing especially Google Glass for which we want to gather the break up community in order to boost innovation.<br><br>Coding an app on Google Glass needs its Rockstar Dev : the team needs a fast learner with solid skills on Android. He knows his way around Android SDK, already checked the Glass Developement Kit (GDK) quick start guide allowing him to jump start developing an app for Glass.The Designer has the hard task to build the visual identity from the ground up, he has strong UX knowledge and a deep understanding of the new rules set by the Glass. His design skills give him the credibility to decide the most effective UI and the most compelling Glass experience."}
 # - {title: "Polymer", image: "hackathon-2.png", details: "Polymer is a library that introduces web components. Web components are small elements on a page that can be extended and incorporated in web applications. The result is an increase in productivity.<br><br>We used Polymer mainly to explore the concept of web components. The transition of Google to material design was also a factor.While the library was never touched by the team, it still was painless to wireframe the application. Later on we incorporated some Polymer components in the design. We didn’t use the full potential of Polymer because of the limited time."}
 
 # Hackathon Judges Block
-judgesImage: "judges.jpg"
-judgesTitle: "Judges"
+#judgesImage: "judges.jpg"
+#judgesTitle: "Judges"
 
 # Hackathon Prizes Block
-prizesTitle: "Prizes"
-prizes:
+#prizesTitle: "Prizes"
+#prizes:
  #- {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ #- {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
  #- {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Communa"
-hackathonLocationLink: "http://communa.net.ua/"
-hackathonStreetAddress: "1 Halytska St"
-hackathonAddressLocality: "Lviv"
+hackathonLocationName: "École de technologie supérieure ( ÉTS ) "
+hackathonLocationLink: "http://www.etsmtl.ca/"
+hackathonStreetAddress: "1100, rue Notre-Dame Ouest"
+hackathonAddressLocality: "Montreal"
 hackathonAddressLocalityRegion: "Montreal"
-hackathonPostalCode: "79000"
-hackathonAddressCountry: "Ukraine"
-hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
-hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
+hackathonPostalCode: "H3C 1k3"
+hackathonAddressCountry: "Canada"
+hackathonTimeTitle: "Conference"
+hackathonStartTime: "2016-03-12T9:00"
+hackathonDoorTime: "08:30"
+hackathonEndTime: "2016-03-12T17:00"
 viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "49.840999, 24.031144"
-hackathonMapCenterCoordinates: "49.840696, 24.028754"
-hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
+hackathonPlaceCoordinates: "45.4944822, -73.5646407"
+hackathonMapCenterCoordinates: "45.4944822, -73.5646407"
+hackathonMapMobileCenterCoordinates: "45.4944822,-73.5646407"
